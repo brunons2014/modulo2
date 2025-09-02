@@ -70,6 +70,10 @@ class veiculo(ABC):
         pass
         
 class Carro(veiculo):
+    
+    def __init__(self) -> None:
+        pass
+    
     def ligar(self):
         print("O carro está ligado.")
         
